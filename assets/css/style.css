@@ -1,3 +1,6 @@
+
+
+
 * {
     padding: 0;
     margin: 0;
@@ -7,3 +10,20 @@
 body {
     height: 100vh;
 }
+
+.memory-game {
+    width: 640px;
+    height: 640px;
+    display: flex;
+    border: 2px solid #040404;
+}
+
+.crest-card {
+    border: 2px solid #92dc24;
+}
+
+.front-face,
+.back-face {
+    border: 2px solid #040404;
+}
+
