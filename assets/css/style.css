@@ -145,3 +145,30 @@ body {
 img {
     width: 100px;
 }
+
+/* Animnated Images */
+
+.image-container {
+    display: flex;
+    position: absolute;
+    top: 11%;
+    transform: translateY(-50%);
+}
+
+.moving-image {
+    width: 70px; 
+    height: 70px;
+    margin-right: 200px; 
+    animation: move 15s linear infinite;
+}
+
+/* Animation */
+@keyframes move {
+    from {
+        transform: translateX(100vw);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
