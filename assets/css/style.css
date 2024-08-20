@@ -152,7 +152,7 @@ img {
     display: flex;
     position: absolute;
     top: 7%;
-    left: 0%;
+    left: -3%;
     transform: translateY(-50%);
     animation: move 15s linear infinite;
 }
@@ -160,10 +160,9 @@ img {
 .moving-image {
     width: 70px;
     height: 70px; 
-    margin-right: 200px; /* Adjust the space between images */
+    margin-right: 200px; 
 }
 
-/* Animation */
 @keyframes move {
     from {
         transform: translateX(-100vw);
