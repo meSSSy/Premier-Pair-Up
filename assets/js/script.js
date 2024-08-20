@@ -3,6 +3,7 @@ const cards = document.querySelectorAll('.crest-card');
 let hasFlippedCard = false;
 let firstCard, secondCard;
 
+
 function flipCard() {
     this.classList.add('flip');
 
@@ -30,5 +31,34 @@ function flipCard() {
 
 cards.forEach(card => card.addEventListener('click', flipCard));
 
-// timer
+document.addEventListener('DOMContentLoaded', () => {
+    const form = document.getElementById('loginForm');
+    const username = document.getElementById('username');
+    const email = document.getElementById('email');
+    const password = document.getElementById('password');
+    const confirmPassword = document.getElementById('confirmPassword');
+
+    // Load saved data from sessionStorage
+    username.value = sessionStorage.getItem('username') || '';
+    email.value = sessionStorage.getItem('email') || '';
+
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        // Validate password match
+        if (password.value !== confirmPassword.value) {
+            alert("Passwords don't match!");
+            return;
+        }
+
+        // Save data to sessionStorage
+        sessionStorage.setItem('username', username.value);
+        sessionStorage.setItem('email', email.value);
+
+        alert('Form submitted and data saved to session storage!');
+        
+    });
+});
+
+
 
