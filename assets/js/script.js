@@ -108,7 +108,6 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 
-  //Animated Images
 
  
 
