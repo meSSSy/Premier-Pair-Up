@@ -47,6 +47,8 @@ function flipCard() {
 
 cards.forEach(card => card.addEventListener('click', flipCard));
 
+// Signup and Signin forms
+
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('loginForm');
     const username = document.getElementById('username');
@@ -105,6 +107,12 @@ document.addEventListener('DOMContentLoaded', () => {
       passwordInput.value = '';
     });
   });
+
+  // Game timer 
+
+
+
+
 
 
 
