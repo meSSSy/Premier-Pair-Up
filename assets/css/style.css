@@ -151,24 +151,25 @@ img {
 .image-container {
     display: flex;
     position: absolute;
-    top: 11%;
+    top: 7%;
+    left: 0%;
     transform: translateY(-50%);
+    animation: move 15s linear infinite;
 }
 
 .moving-image {
-    width: 70px; 
-    height: 70px;
-    margin-right: 200px; 
-    animation: move 15s linear infinite;
+    width: 70px;
+    height: 70px; 
+    margin-right: 200px; /* Adjust the space between images */
 }
 
 /* Animation */
 @keyframes move {
     from {
-        transform: translateX(100vw);
+        transform: translateX(-100vw);
     }
     to {
-        transform: translateX(-100%);
+        transform: translateX(100vw);
     }
 }
 
