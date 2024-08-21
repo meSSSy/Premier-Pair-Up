@@ -172,3 +172,31 @@ img {
     }
 }
 
+/* Score and counter */
+
+p {
+    display: flex;
+    position: absolute;
+    top: 7%;
+    left: 44%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+}
+
+.actions button {
+    display: flex;
+    position: absolute;
+    bottom: 3%;
+    left: 44%;
+    padding: 8px 16px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+

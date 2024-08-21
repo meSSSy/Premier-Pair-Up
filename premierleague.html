@@ -39,6 +39,8 @@
         </div>
     </nav>
 
+    <div id="turn-counter">Turns: 0</div>
+
     <div class="memory-game">
         <div class="crest-card" data-framework="arsenal">
             <img class="front-face" src="assets/images/arsenalbadge.png" alt="Arsenal">
@@ -104,6 +106,11 @@
             <img class="front-face" src="assets/images/tottenhambadge.png" alt="Tottenham">
             <img class="back-face" src="assets/images/premierleaguebadge.png" alt="Premier League">
         </div>
+    </div>
+    
+    <p>Score: <span class="score"></span></p>
+    <div class="actions">
+        <button oneclick="reset()">Restart</button>
     </div>
  
     <script src="assets/js/script.js"></script>

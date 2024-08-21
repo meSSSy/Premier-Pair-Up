@@ -3,6 +3,7 @@ const cards = document.querySelectorAll('.crest-card');
 let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
+let score = 0;
 
 function flipCard() {
     if (lockBoard) return;
@@ -15,6 +16,8 @@ function flipCard() {
     } else {
         hasFlippedCard = false;
         secondCard = this;
+        score++;
+        document.querySelector(".score").textContent = score;
 
         // Check if the two selected cards match
         if (firstCard.dataset.framework === secondCard.dataset.framework) {
@@ -37,6 +40,15 @@ function flipCard() {
     }
 }
 
+        function reset() {
+            [cardFlipped, lock] = [false, false];
+            [firstCard, secondCard] = [null, null];
+            cards.forEach(card => {
+            card.classList.remove("flip");
+    });
+            shuffle(); 
+}
+
 (function shuffle() {
     cards.forEach(card => {
     let randomPos = Math.floor(Math.random() * 16);
@@ -45,6 +57,8 @@ function flipCard() {
 })();
 
 cards.forEach(card => card.addEventListener('click', flipCard));
+
+
 
 // Signup and Signin forms
 
