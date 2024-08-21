@@ -92,6 +92,18 @@ body {
     margin-top: 10px;
 }
 
+.signin-btn {
+    width: 30%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
 .btn:hover {
     background-color: #0056b3;
 }
@@ -199,4 +211,573 @@ p {
     background-color: black;
     color: white;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 320px) {
+    .hero {
+        display: flex;
+        position: absolute;
+        top: 11%;
+        left: 20%;
+    
+    }
+    
+    .logo {
+        display: flex;
+        position: absolute;
+        height: 240px;
+        width: 280px;
+    }
+
+    .image-container {
+        display: none;
+    }
+
+    .signup-container {
+        display: flex;
+        position: absolute;
+        top: 43%;
+        left: 25%;
+    }
+
+    .signin-container {
+        display: flex;
+        position: absolute;
+        top: 50%;
+        left: 15%;
+    }
+
+    .signin-btn {
+        width: 30%;
+        padding: 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    
+      .memory-game {
+        max-width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        left: 10%;
+        top: 15%;
+        transform: scale(1);
+        perspective: 1000px;
+    }
+
+    .crest-card {
+        width: 20%;
+        height: 15%;
+        position: relative;
+        margin: 2px;
+        transition: transform .5s;
+        transform-style: preserve-3d;
+    }
+
+    .actions button {
+        display: flex;
+        position: absolute;
+        bottom: 3%;
+        left: 35%;
+        padding: 8px 16px;
+        font-size: 20px;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+    }
+
+    p {
+        display: flex;
+        position: absolute;
+        top: 9%;
+        left: 37%;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+    @media screen and (min-width: 321px) and (max-width: 375px) {
+        .hero {
+            display: flex;
+            position: absolute;
+            top: 11%;
+            left: 20%;
+        
+        }
+        
+        .logo {
+            display: flex;
+            position: absolute;
+            height: 240px;
+            width: 300px;
+        }
+    
+        .image-container {
+            display: none;
+        }
+    
+        .signup-container {
+            display: flex;
+            position: absolute;
+            top: 43%;
+            left: 25%;
+        }
+
+        .signin-container {
+            display: flex;
+            position: absolute;
+            top: 50%;
+            left: 12%;
+        }
+    
+        .signin-btn {
+            width: 30%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .memory-game {
+            max-width: 350px;
+            display: flex;
+            flex-wrap: wrap;
+            position: absolute;
+            left: 10%;
+            top: 15%;
+            transform: scale(1);
+            perspective: 1000px;
+        }
+    }
+
+        .crest-card {
+            width: 22%;
+            height: 15%;
+            position: relative;
+            margin: 2px;
+            transition: transform .5s;
+            transform-style: preserve-3d;
+        }
+    
+        .actions button {
+            display: flex;
+            position: absolute;
+            bottom: 1%;
+            left: 38%;
+            padding: 8px 16px;
+            font-size: 20px;
+            border-radius: 10px;
+            background-color: black;
+            color: white;
+        }
+    
+        p {
+            display: flex;
+            position: absolute;
+            top: 9%;
+            left: 37%;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        @media screen and (min-width: 376px) and (max-width: 425px) {
+            .hero {
+                display: flex;
+                position: absolute;
+                top: 11%;
+                left: 20%;
+            
+            }
+            
+            .logo {
+                display: flex;
+                position: absolute;
+                height: 260px;
+                width: 320px;
+            }
+        
+            .image-container {
+                display: none;
+            }
+        
+            .signup-container {
+                display: flex;
+                position: absolute;
+                top: 48%;
+                left: 25%;
+            }
+
+            .signin-container {
+                display: flex;
+                position: absolute;
+                top: 50%;
+                left: 15%;
+            }
+        
+            .signin-btn {
+                width: 30%;
+                padding: 10px;
+                background-color: #007bff;
+                color: #fff;
+                border: none;
+                border-radius: 5px;
+                font-size: 16px;
+                cursor: pointer;
+                margin-top: 10px;
+            }
+
+            .memory-game {
+                max-width: 400px;
+                display: flex;
+                flex-wrap: wrap;
+                position: absolute;
+                left: 4%;
+                top: 13%;
+                transform: scale(1);
+                perspective: 1000px;
+            }
+
+            .crest-card {
+                width: 24%;
+                height: 18%;
+                position: relative;
+                margin: 2px;
+                transition: transform .5s;
+                transform-style: preserve-3d;
+            }
+
+            .actions button {
+                display: flex;
+                position: absolute;
+                bottom: 1%;
+                left: 40%;
+                padding: 8px 16px;
+                font-size: 20px;
+                border-radius: 10px;
+                background-color: black;
+                color: white;
+            }
+        
+            p {
+                display: flex;
+                position: absolute;
+                top: 8%;
+                left: 41%;
+                font-size: 24px;
+                font-weight: bold;
+            }
+        }
+
+        @media screen and (min-width: 426px) and (max-width: 768px) {
+            .hero {
+                display: flex;
+                position: absolute;
+                top: 11%;
+                left: 33%;
+            
+            }
+            
+            .logo {
+                display: flex;
+                position: absolute;
+                height: 280px;
+                width: 350px;
+            }
+        
+            .image-container {
+                display: none;
+            }
+        
+            .signup-container {
+                display: flex;
+                position: absolute;
+                top: 48%;
+                left: 38%;
+            }
+
+            .signin-container {
+                display: flex;
+                position: absolute;
+                top: 55%;
+                left: 30%;
+            }
+        
+            .signin-btn {
+                width: 30%;
+                padding: 10px;
+                background-color: #007bff;
+                color: #fff;
+                border: none;
+                border-radius: 5px;
+                font-size: 16px;
+                cursor: pointer;
+                margin-top: 10px;
+            }
+
+            .memory-game {
+                max-width: 748px;
+                display: flex;
+                flex-wrap: wrap;
+                position: absolute;
+                left: 16%;
+                top: 13%;
+                transform: scale(1);
+                perspective: 1000px;
+            }
+
+            .crest-card {
+                width: 20%;
+                height: 18%;
+                position: relative;
+                margin: 2px;
+                transition: transform .5s;
+                transform-style: preserve-3d;
+            }
+
+            .actions button {
+                display: flex;
+                position: absolute;
+                bottom: 1%;
+                left: 44%;
+                padding: 8px 16px;
+                font-size: 20px;
+                border-radius: 10px;
+                background-color: black;
+                color: white;
+            }
+        
+            p {
+                display: flex;
+                position: absolute;
+                top: 8%;
+                left: 45%;
+                font-size: 24px;
+                font-weight: bold;
+            }
+        }
+
+        @media screen and (min-width: 769px) and (max-width: 1024px) {
+             .hero {
+                    display: flex;
+                    position: absolute;
+                    top: 11%;
+                    left: 33%;
+                 }
+                
+                .logo {
+                    display: flex;
+                    position: absolute;
+                    height: 300px;
+                    width: 390px;
+                }
+            
+                .image-container {
+                    display: none;
+                }
+            
+                .signup-container {
+                    display: flex;
+                    position: absolute;
+                    top: 48%;
+                    left: 38%;
+                }
+
+                .signin-container {
+                    display: flex;
+                    position: absolute;
+                    top: 55%;
+                    left: 35%;
+                }
+            
+                .signin-btn {
+                    width: 30%;
+                    padding: 10px;
+                    background-color: #007bff;
+                    color: #fff;
+                    border: none;
+                    border-radius: 5px;
+                    font-size: 16px;
+                    cursor: pointer;
+                    margin-top: 10px;
+                }
+
+                .memory-game {
+                max-width: 1000px;
+                display: flex;
+                flex-wrap: wrap;
+                position: absolute;
+                left: 20%;
+                top: 13%;
+                transform: scale(1);
+                perspective: 1000px;
+            }
+
+            .crest-card {
+                width: 23%;
+                height: 19%;
+                position: relative;
+                margin: 2px;
+                transition: transform .5s;
+                transform-style: preserve-3d;
+            }
+
+            .actions button {
+                display: flex;
+                position: absolute;
+                bottom: 88%;
+                left: 55%;
+                padding: 3px 16px;
+                font-size: 20px;
+                border-radius: 10px;
+                background-color: black;
+                color: white;
+            }
+        
+            p {
+                display: flex;
+                position: absolute;
+                top: 7.5%;
+                left: 35%;
+                font-size: 24px;
+                font-weight: bold;
+            }
+        }
+
+        @media screen and (min-width: 1025px) and (max-width: 1440px) {
+            .hero {
+                display: flex;
+                position: absolute;
+                top: 11%;
+                left: 40%;
+             }
+            
+            .logo {
+                display: flex;
+                position: absolute;
+                height: 300px;
+                width: 390px;
+            }
+        
+            .signup-container {
+                display: flex;
+                position: absolute;
+                top: 48%;
+                left: 43%;
+            }
+
+            .signin-container {
+                display: flex;
+                position: absolute;
+                top: 55%;
+                left: 40%;
+            }
+        
+            .signin-btn {
+                width: 30%;
+                padding: 10px;
+                background-color: #007bff;
+                color: #fff;
+                border: none;
+                border-radius: 5px;
+                font-size: 16px;
+                cursor: pointer;
+                margin-top: 10px;
+            }
+
+            .memory-game {
+                max-width: 1440px;
+                display: flex;
+                flex-wrap: wrap;
+                position: absolute;
+                left: 29%;
+                top: 15%;
+                transform: scale(1);
+                perspective: 1000px;
+            }
+
+            .crest-card {
+                width: 23%;
+                height: 21%;
+                position: relative;
+                margin: 2px;
+                transition: transform .5s;
+                transform-style: preserve-3d;
+            }
+
+            .actions button {
+                display: flex;
+                position: absolute;
+                bottom: 87%;
+                left: 55%;
+                padding: 3px 16px;
+                font-size: 20px;
+                border-radius: 10px;
+                background-color: black;
+                color: white;
+            }
+        
+            p {
+                display: flex;
+                position: absolute;
+                top: 8.5%;
+                left: 38%;
+                font-size: 24px;
+                font-weight: bold;
+            }
+        }
+
+        @media screen and (min-width: 1441px) {
+            .memory-game {
+                width: 640px;
+                height: 740px;
+                display: flex;
+                flex-wrap: wrap;
+                position: absolute;
+                left: 30%;
+                top: 13%;
+                transform: scale(1);
+                perspective: 1000px;
+            }
+
+            .crest-card {
+                width: 24.3%;
+                height: 24.3%;
+                position: relative;
+                margin: 2px;
+                transition: transform .5s;
+                transform-style: preserve-3d;
+            }
+            
+            .actions button {
+                display: flex;
+                position: absolute;
+                bottom: 3%;
+                left: 44%;
+                padding: 8px 16px;
+                font-size: 20px;
+                border-radius: 10px;
+                background-color: black;
+                color: white;
+            }
+
+            p {
+                display: flex;
+                position: absolute;
+                top: 7%;
+                left: 44%;
+                font-size: 30px;
+                font-weight: bold;
+            }
+        }
+
 
