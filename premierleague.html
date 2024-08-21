@@ -9,7 +9,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="nav container-fluid">
+        <div class="container-fluid">
             <a class="navbar-brand" href="#">Premier Pair-Up</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -20,25 +20,24 @@
                         <a class="nav-link active" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="premierleague.html">Premier League</a>
+                        <a class="nav-link" aria-current="page" href="signin.html">Sign-In</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="laliga.html">La Liga</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="seriea.html">Serie A</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="restoftheworld.html">ROTW</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="international.html">International</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Leagues
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="premierleague.html">Premier League</a></li>
+                            <li><a class="dropdown-item" href="laliga.html">La Liga</a></li>
+                            <li><a class="dropdown-item" href="seriea.html">Serie A</a></li>
+                            <li><a class="dropdown-item" href="restoftheworld.html">ROTW</a></li>
+                            <li><a class="dropdown-item" href="international.html">International</a></li>
+                        </ul>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
     <div id="turn-counter">Turns: 0</div>
 
     <div class="memory-game">
