@@ -1,6 +1,6 @@
 # Premier Pair-Up
 
-![Logo](docs/images/premier-pair-up-high-resolution-logo-transparent.png)
+![Logo](assets/images/premier-pair-up-high-resolution-logo-transparent-png)
 
 ## Description
 
@@ -67,4 +67,8 @@ The wireframe shows a clean and simple design to aid in user experience.
 * Navbar was not functioning when a league was selected, no other leagues could then be chosen. - Fixed
 
 
-##
+## Future Features
+
+The signup and signup feature needs to be fully functional for user experience.
+
+I would also like to introduce a leaderboard for both the user as an individual, but also a collective leaderboard of all users.
