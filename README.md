@@ -1,6 +1,6 @@
 # Premier Pair-Up
 
-![Logo](assets/images/premier-pair-up-high-resolution-logo-transparent-png)
+![Logo](assets/images/premier-pair-up-high-resolution-logo-transparent.png)
 
 ## Description
 
@@ -82,4 +82,4 @@ I would like to add different themes to the game. Trophies, stadiums, kits and p
 
 ![HTML Validator](assets/images/htmlvalidator.png)
 
-![Lighthouse] (assets/images/lighthousereport.png)
+![Lighthouse](assets/images/lighthousereport.png)
