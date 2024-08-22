@@ -83,3 +83,18 @@ I would like to add different themes to the game. Trophies, stadiums, kits and p
 ![HTML Validator](assets/images/htmlvalidator.png)
 
 ![Lighthouse](assets/images/lighthousereport.png)
+
+
+## Credits
+
+Thanks to Kristyna at Code Institute for sending her similar project. Whilst none of the code was used, it was a great platform for ideas.
+
+Thanks to Amy, also at Code Institute for sending a You Tube video, created by Code Sketch. This really helped with a few aspects of the game.
+
+Chat GPT and Perplexity, helped to correct some of the JavaScript code and talk me through where I was going wrong.
+
+Premier Pair-Up logo created through logo.com - a free logo creator.
+
+Main background image taken from Google Images.
+
+All badge images taken from Wikiipedia.
