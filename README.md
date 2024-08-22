@@ -14,13 +14,13 @@ You can access the site at: https://messsy.github.io/Premier-Pair-Up/
 * Easy Navigation: Smooth and user-friendly navigation throughout the game.
 * Crisp Card Images: High quality images of club badges that enhance the gameplay experience.
 
-![Responsive Mockup](docs/images/amiresponsive.png)
+![Responsive Mockup](assets/images/amiresponsive.png)
 
 ## Home Page
 
 The landing page invites users to create an account in order to track their progress, however this function is not up and running. The navbar enables the user to select which of the four leagues or one international game that they would like to play.
 
-![Landing Page](docs/images/landingpage.png)
+![Landing Page](assets/images/landingpage.png)
 
 ## Game Pages
 
@@ -34,11 +34,11 @@ The user can select which of the leagues they wish to play;
 
 Upon selecting a leage, the user will see 16 facedown cards. The aim of the game is to turn the cards and match the pairs in as few sequences as possible.
 
-![Game Page](docs/images/gamepage.png)
+![Game Page](assets/images/gamepage.png)
 
 Once all cards have been turned, the game is complete and your score (in turns) is shown at the top of the page
 
-![Completed Game Page](docs/images/completedgamepage.png)
+![Completed Game Page](assets/images/completedgamepage.png)
 
 The user can either refresh the game in an attempt to improve their score, or try a different game.
 
@@ -47,7 +47,7 @@ The user can either refresh the game in an attempt to improve their score, or tr
 
 The wireframe shows a clean and simple design to aid in user experience.
 
-![Wireframe](docs/images/wireframe.png)
+![Wireframe](assets/images/wireframe.png)
 
 
 ## User Stories and bugs
@@ -72,3 +72,14 @@ The wireframe shows a clean and simple design to aid in user experience.
 The signup and signup feature needs to be fully functional for user experience.
 
 I would also like to introduce a leaderboard for both the user as an individual, but also a collective leaderboard of all users.
+
+I would like to add different themes to the game. Trophies, stadiums, kits and players.
+
+
+## Validator Testing
+
+![CSS Testing](assets/images/cssvalidator.png)
+
+![HTML Validator](assets/images/htmlvalidator.png)
+
+![Lighthouse] (assets/images/lighthousereport.png)
