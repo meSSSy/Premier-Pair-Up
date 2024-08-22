@@ -1,7 +1,7 @@
 
 # Premier Pair-Up
 
-! [Logo] (assets/images/premier-pair-up-high-resolution-logo-transparent.png)
+! [Logo] (docs/images/premier-pair-up-high-resolution-logo-transparent.png)
 
 ## Description
 
@@ -13,4 +13,4 @@ Premier Pair-up is a football themed memory card game designed to test your know
 * Easy Navigation: Smooth and user-friendly navigation throughout the game.
 * Crisp Card Images: High quality images of club badges that enhance the gameplay experience.
 
-! [Responsive Mockup] (assets/images/amiresponsive.png)
+! [Responsive Mockup] (docs/images/amiresponsive.png)
