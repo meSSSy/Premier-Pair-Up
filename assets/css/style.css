@@ -92,18 +92,6 @@ body {
     margin-top: 10px;
 }
 
-.btn {
-    width: 30%;
-    padding: 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    margin-top: 10px;
-}
-
 .signin-btn {
     width: 30%;
     padding: 10px;
